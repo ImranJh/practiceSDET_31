@@ -1,6 +1,7 @@
 package com.crm.genericUtility;
 
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 
 public class BaseClass {
 	
@@ -10,4 +11,9 @@ public class BaseClass {
 		System.out.println("database connection done");
 	}
 
+	@BeforeTest
+	public void bt()
+	{
+		System.out.println("parallel connection done");
+	}
 }
