@@ -17,7 +17,7 @@ public class CreateCampaignTest {
 		
 		
 		
-		
+		System.out.println("Campaign created");
 		
 		
 	}
